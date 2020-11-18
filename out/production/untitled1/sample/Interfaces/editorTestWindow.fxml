@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="485.0" prefWidth="648.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.AdminController">
+    <children>
+        <Label layoutX="162.0" layoutY="19.0" prefHeight="45.0" prefWidth="329.0" text="Редактирование тестов">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+        <Button fx:id="logoutButton" layoutX="528.0" layoutY="26.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="93.0" text="перезайти" />
+        <Button fx:id="createTestButton" layoutX="26.0" layoutY="78.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="130.0" text="создать тест" />
+        <Button fx:id="deleteQuestionButton" layoutX="509.0" layoutY="214.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="130.0" text="удалить вопрос" />
+        <TextField fx:id="difficultyField" layoutX="390.0" layoutY="317.0" prefHeight="31.0" prefWidth="249.0" promptText="Сложность" />
+        <Button fx:id="createQuestionButton" layoutX="28.0" layoutY="182.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="130.0" text="создать вопрос" />
+        <TextArea fx:id="inputOutputZone" layoutX="26.0" layoutY="317.0" prefHeight="144.0" prefWidth="339.0" promptText="просмотр или редактирование или создание вопроса\теста " />
+        <Label fx:id="inputOutputZoneInformationLabel" layoutX="26.0" layoutY="283.0" prefHeight="21.0" prefWidth="418.0" text="просмотр или редактирование или создание вопроса\теста " />
+        <Button fx:id="saveButton" layoutX="477.0" layoutY="413.0" mnemonicParsing="false" text="сохранить " />
+        <TextField fx:id="typeField" layoutX="390.0" layoutY="278.0" prefHeight="31.0" prefWidth="249.0" promptText="Тип" />
+        <TextField fx:id="questionIdField" layoutX="301.0" layoutY="213.0" prefHeight="31.0" prefWidth="51.0" promptText="id" />
+        <TextField fx:id="testNameField" layoutX="202.0" layoutY="103.0" prefHeight="31.0" prefWidth="249.0" promptText="Название теста" />
+        <Button fx:id="deleteTestButton" layoutX="509.0" layoutY="103.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="130.0" text="удалить тест" />
+        <TextField fx:id="authorField" layoutX="390.0" layoutY="358.0" prefHeight="31.0" prefWidth="249.0" promptText="Автор" />
+        <Button fx:id="openTestButton" layoutX="28.0" layoutY="126.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="130.0" text="открыть тест" />
+        <Button fx:id="openQuestionButton" layoutX="28.0" layoutY="229.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="130.0" text="открыть вопрос" />
+    </children>
+</AnchorPane>
